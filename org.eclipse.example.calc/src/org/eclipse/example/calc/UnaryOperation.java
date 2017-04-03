@@ -11,10 +11,12 @@ package org.eclipse.example.calc;
 /**
  * Unary operation
  */
+//operación unaria
 public interface UnaryOperation extends Operation {
 	/**
 	 * @param arg1 parameter
 	 * @return result of binary operation
 	 */
 	public float perform(float arg1);
+	//operacion en coma flotante
 }
